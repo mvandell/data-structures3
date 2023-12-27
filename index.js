@@ -1,4 +1,4 @@
-//PART 1
+//PART 1 Prim's Algorithm
 class PriorityQueue {
     constructor() {
         this.values = [];
@@ -52,6 +52,9 @@ function prims() {
     const visited = new Set();
     let queue = new PriorityQueue();
     let cost = 0;
+    const startV = graph.adjacencyList[0];
 
-    
+    queue.enqueue(startV, priority)
 }
+
+//look up Stanley's video
