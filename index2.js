@@ -9,7 +9,7 @@ const graph = {
 }
 
 //how to find endpoint
-function bfs(graph, startV){
+function bfs(graph, startV, endV){
     const visited = new Set();
     const queue = [startV];
     visited.add(startV)
