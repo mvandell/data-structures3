@@ -8,6 +8,7 @@ const graph = {
     F: ["C", "E"]
 }
 
+//how to find endpoint
 function dfs(graph, startV, endV){
     const visited = new Set();
     visited.add(startV);
